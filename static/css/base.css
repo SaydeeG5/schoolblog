@@ -17,14 +17,14 @@ h1 {
 }
 
 body{
-    background-color: #FEFCF3;
+    background-color:#F0F0F0;
 }
 
 
 /* ----------about.html paragraph ---------- */
 
 .about-p {
-    background-color: #EDDBC7;
+    background-color: #F0EEED;
     padding: 50px;
     width: 70%;
     font-family: 'Raleway', sans-serif;
@@ -35,6 +35,7 @@ body{
 }
 
 .aboutlogo { 
+    width: 250px;
     display: flex;
     justify-content: center;
     margin-left: auto; 
@@ -70,11 +71,6 @@ body{
     overflow: hidden; 
 }
 
-/* .btn {
-    background-color:  #EDDBC7;
-    color:white;
-    font-family: 'Raleway', sans-serif;
-} */
 
 main {
     width: 100%;
@@ -84,15 +80,6 @@ main {
     margin-left: auto;
     column-gap: 15px;
     border-radius: 5px;
-}
-/* line 116 start of the cards (home.html) */
-.container-home {
-    display: flex;
-    flex-direction: column;
-    row-gap: 10px; 
-    padding: 5px;
-    justify-content: center; 
-    margin-top: 30px; 
 }
     
 h4  {
@@ -104,58 +91,6 @@ h4  {
     text-align: center;
     padding: 2px; 
     }
-
-/* ----------home.html and list.html share these--------- */
-.card-title {
-    font-family: 'Montserrat', serif;
-    font-size: 14px;
-    font-weight: 600;
-    text-align: center;
-    letter-spacing: 1px;
-    background-color:  #EDDBC7;
-}
-
-.card-subtitle {
-    font-family: 'Merriweather', serif;
-}
-
-.card-text {
-    font-family: 'Lato', sans-serif;
-    font-size: 12px;
-}
-
-.card-body {
-    background-color: #eee9da46;
-}
-
-.card-body p {
-    margin-top: 10px; 
-}
-
-/* ----------card-link list.html---------- */
-.card-list { 
-    width: 60%; 
-    display:flex; 
-    flex-direction: column;
-    margin-left: auto; 
-    margin-right: auto;
-}
-
-/* 
-.card-body-list {
-    margin-left: auto; 
-    margin-right: auto;
-} */
-
-/* ---------- this is the h5 in list.html ---------- */
-.card-title-list {
-    font-family: 'Bebas Neue', cursive;
-    font-size: 15px;
-    color:    #434242;
-    letter-spacing: 1px;
-    text-align: center;
-    background-color:  #EDDBC7;
-}
 
 
 .author {
@@ -173,67 +108,17 @@ h6 {
     margin-right: auto; 
     text-transform: uppercase;
 }
-
-
-.card-link {
-    color: #434242;
-    font-family: 'Merriweather', serif;
-    font-size: 10px;
-}
-
-.card-link:hover{
-    background-color: #EDDBC7;
-    text-decoration-color: #EDDBC7 ;
-    font-size: 12px; 
-    text-transform: uppercase;
-}
-
-/* ----------part of home.html card images--------- */
-
-.cardimage {
-        display: block;
-        max-width: 100%;
-        height: auto;
-        transform: scale(1);
-        transition: 0.3s ease-in-out;
-        cursor: pointer;
-}
-    
-.cardimage:hover {
-        transform: scale(1.1);
-}
-
-.oneandtwo {
-    display: flex; 
-    flex-direction: column;   
-}
-/* 2nd div from top  */
+/* line 12 home.html  */
 #carouselExampleCaptions {
-    width: 100%;
+    width: 75%;
 
 }
-/* line 20  */
+/* line 20  home.html*/
 #topdivhome { 
     margin-top: 50px; 
     margin-bottom: 10px; 
 }
 
-.secondpart-home {
-    display: grid;
-    grid-template-columns: 3fr 3fr 3fr;
-    grid-gap: 10px; 
-    width: 100%;
-    justify-content: space-around;
-}
-
-.gridpic {
-    width: 250px; 
-}
-
-.grid-p {
-    font-size : 10px; 
-    margin-top: 10px; 
-}
 
 
 /* ----------new (NEWPOST)----form is also iin edit------ */
