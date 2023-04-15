@@ -4,45 +4,35 @@
 * {
     padding: 0; 
     margin: 0;
-    color:  #434242;
+    color:  black;
 }
 
 h1 {
     font-family: 'Bebas Neue', cursive;
     font-size: 35px;
-    color:    #434242;
+    color:   white;
     text-align: center;
     margin-top: 25px;
     margin-bottom: 25px; 
 }
 
 body{
-    background-color:#F0F0F0;
+    background-color:black;
 }
 
 
-/* ----------about.html paragraph ---------- */
+/* ----------about.html---------- */
 
-.about-p {
-    background-color: #F0EEED;
-    padding: 50px;
-    width: 70%;
-    font-family: 'Raleway', sans-serif;
-    font-size: 15px;
-    text-align: center;
-    margin: auto;
-    border-radius: 5px;
-}
 
-.aboutlogo { 
-    width: 250px;
+.logo { 
+    width: 83%;
     display: flex;
     justify-content: center;
     margin-left: auto; 
     margin-right: auto; 
     margin-bottom: 15px; 
+    border-radius: 10px;
 }
-
 
 /* ----------home.html---------- */
 
@@ -51,36 +41,15 @@ body{
     border-radius: 10px;
 }
 
-#carouselExampleCaptions {
-    width: 70%;
-    margin-left: auto;
-    margin-right: auto;
-    position: relative;
-    margin-top: 3%;
-}
-
-
-/* ----------home cards ----------*/
-.card {
-    border-radius: 5px;
-    overflow: hidden;     
-}
-
-.card1 {
-    border-radius: 5px;
-    overflow: hidden; 
-}
-
-
 main {
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    margin-right: auto;
-    margin-left: auto;
-    column-gap: 15px;
-    border-radius: 5px;
-}
+        width: 83%;
+        display: flex;
+        justify-content: center;
+        margin-left: auto; 
+        margin-right: auto; 
+        margin-top: 75px; 
+    }
+
     
 h4  {
     font-family: 'Bebas Neue', cursive;
@@ -92,6 +61,15 @@ h4  {
     padding: 2px; 
     }
 
+.card-list {
+    background-color: #F0F0F0;
+    border-radius: 5px;
+    padding: 5px; 
+    width: 83%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 
 .author {
     font-size: 12px;
@@ -99,6 +77,31 @@ h4  {
     font-weight: 600;
     text-align: center;
 }
+
+.card-title-list {
+    font-size: 18px;
+    font-family: 'Montserrat', serif;
+    font-weight: 600;
+    text-align: center;
+
+}
+
+.card-link {
+    color:  #434242;
+    font-family: 'Montserrat', serif;
+    font-size: 12px; 
+    text-decoration: none;
+}
+
+.card-link:hover {
+    border-style: solid;
+    border-color:  #434242;
+    border-width: 3px; 
+    padding: 3px; 
+    border-radius: 5px;
+    text-transform: uppercase;
+}
+
 
 h6 {
     color: #434242;
@@ -108,16 +111,7 @@ h6 {
     margin-right: auto; 
     text-transform: uppercase;
 }
-/* line 12 home.html  */
-#carouselExampleCaptions {
-    width: 75%;
 
-}
-/* line 20  home.html*/
-#topdivhome { 
-    margin-top: 50px; 
-    margin-bottom: 10px; 
-}
 
 
 
@@ -224,14 +218,14 @@ nav.navbar {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    background-color: #EDDBC7;
+    background-color: #F0F0F0;
     height:40px;
     word-spacing: 10px;
 }
 
 .baselink {
     text-transform: uppercase;
-    background-color: #EDDBC7;
+    background-color: #F0F0F0;
     color:#434242;
     font-weight: 400;
     letter-spacing: 1px;
@@ -244,19 +238,19 @@ nav.navbar {
 }
 
 .baselink:hover {
-    box-shadow: inset 300px 0 0 0 #DFD3C3;
-    background-color: #DFD3C3;
+    box-shadow: inset 300px 0 0 0 #F45050;
+    background-color: #F45050;
     border-radius: 1px;
     color: black;
     font-weight: 600;
     border-radius: 3px;
 }
 
-#login-home:hover {
+#login-home:hover, #signup-home:hover{
     border-style: solid;
     border-color:  #434242;
     border-width: 3px; 
-    background-color: #EDDBC7;
+    background-color:  #EDDBC7;
 }
 
 #logout:hover {
@@ -270,8 +264,7 @@ nav.navbar {
     border-bottom-style: solid;
     border-bottom-width: 3px;
     width: fit-content;
-    box-shadow: inset 300px 0 0 0 #EDDBC7;
-    background-color: #EDDBC7;
+    box-shadow: inset 300px 0 0 0 #F45050;
 }
 
 /* ----------search---------- */
@@ -315,12 +308,10 @@ nav.navbar {
 
 /* ----------registration sign up form ---------- */
 #signup-form {
-    background-color: #EDDBC7;
+    background-color:#F0EEED;
     padding: 5px; 
-    width: 50%;
+    width: 100%;
     font-size: 12px;
-    /* text-align: center; */
-    margin: auto;
     font-family: 'Lato', sans-serif;
     border-radius: 5px;
 }
@@ -362,7 +353,7 @@ nav.navbar {
         background-color: #EDDBC7;
     }
 
-    #about, #lasvegas {
+    #about, #sdgku {
         display:none;
     }
 
