@@ -118,10 +118,10 @@ h6 {
 /* ----------new (NEWPOST)----form is also iin edit------ */
 
 form {
-    background-color: #EDDBC7;
+    background-color: #F0F0F0;
     padding: 5px; 
     width: 70%;
-    font-size: 12px;
+    font-size: 15px;
     text-align: center;
     margin: auto;
     font-family: 'Lato', sans-serif;
@@ -135,13 +135,9 @@ form {
 }
 
 .btn:hover {
-    background-color: #EDDBC7;
-    color: #434242;
-    border-color:#332C39;
-    text-transform: uppercase;
-    font-family: 'Bebas Neue', cursive;
-    border-color:#332C39;
-    color: #434242;
+    background-color:#332C39;
+    color:#F0EEED;
+    border-color:#332C39;  
 }
 
 /* 
@@ -150,6 +146,7 @@ form {
     text-align: center;
     font-size: 15px;
     font-family: 'Montserrat', serif;
+    color: white;
 }
 .detail-class{
     width: 60%; 
@@ -165,6 +162,10 @@ strong {
 
 .detail-p { 
     font-size: 12px; 
+    background-color:#F0EEED;
+    padding: 5px; 
+    border-radius: 10px;
+
 }
 
 /* ----------the two delete buttons in detail.html---------- */
@@ -250,7 +251,8 @@ nav.navbar {
     border-style: solid;
     border-color:  #434242;
     border-width: 3px; 
-    background-color:  #EDDBC7;
+    background-color:#434242;
+    border-radius : 5px; 
 }
 
 #logout:hover {
@@ -277,7 +279,7 @@ nav.navbar {
 }
 
 #form-blog {
-    background-color:  #FEFCF3;
+    background-color: #F0F0F0;
 }
 
 #buttonsearch {
@@ -285,7 +287,7 @@ nav.navbar {
     padding: 5px; 
     border-radius: 5px;
     letter-spacing: 2px; 
-    background-color: #EDDBC7;
+    background-color: #F0F0F0;
     color: #434242;
     border-color:#332C39;
     text-transform: uppercase;
@@ -293,11 +295,10 @@ nav.navbar {
 }
 
 #buttonsearch:hover {
-    background-color: #43424287;
+    background-color:#332C39;
     color: white;
     font-family: 'Bebas Neue', cursive;
     letter-spacing: 3px;
-    border-color:  #EDDBC7;
 }
 
 
@@ -308,12 +309,13 @@ nav.navbar {
 
 /* ----------registration sign up form ---------- */
 #signup-form {
-    background-color:#F0EEED;
+    background-color: #F0F0F0;
     padding: 5px; 
-    width: 100%;
+    width: 50%;
     font-size: 12px;
     font-family: 'Lato', sans-serif;
     border-radius: 5px;
+    text-align: left;
 }
 
 #signup-btn{
@@ -321,23 +323,38 @@ nav.navbar {
     border-color:#332C39;
     color: #434242;
     padding: 5px; 
+    border-radius: 3px;
 }
 
 #signup-btn:hover {
-    background-color: #EDDBC7;
-    color: #434242;
+    background-color: #434242;
+    color: white;
     border-color:#332C39;
-    text-transform: uppercase;
     font-family: 'Bebas Neue', cursive;
-    border-color:#332C39;
-    color: #434242;
+    letter-spacing: 2px;
+    border-radius: 3px;
+    
 }
 
 /* ----------Password Change---------- */
 
+#id_password_change_form {
+    margin-top: 50px; 
+}
+
+#container {
+    background-color: #F0EEED;
+    margin-top: 50px; 
+    border-radius: 10px;
+}
 
 
+/* ----------log out ---------- */
+.logout-p {
+    background-color: #F0EEED;
+    border-radius: 10px;
 
+}
 /* ----------responsive--------- */
 
 @media (max-width: 768px) {
@@ -363,14 +380,6 @@ nav.navbar {
         margin-left: auto;
         margin-right: auto;
     }
-
-/* cards from home.html */
-    /* .container-home {
-        display:flex;
-        flex-direction: column;
-        margin-left: auto;
-        margin-right: auto;
-    } */
 
 
 
