@@ -10,9 +10,12 @@
     {% csrf_token %}
     {{ form.as_p }}
     <input type="submit" value="Log In" class="btn btn-light"> </br> </br>
-    <small>Forgot your password? 
-    <a href="{% url 'password_reset' %}">Click here</a> to reset it. 
-</small>
+    <small> <a class="btn" href="mailto:saydee.g.inquiries@gmail.com">  Forgot your password? <br>
+        
+        Please send us your Username.</a> <br>
+        It may take up to 24 hours for a new password to be generated.
+    <!-- <a href="{% url 'password_reset' %}">Click here</a> to reset it.  -->
+    </small>
 </form>
 
 

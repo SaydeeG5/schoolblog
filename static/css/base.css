@@ -347,7 +347,15 @@ nav.navbar {
     margin-top: 50px; 
     border-radius: 10px;
 }
+/* -----------reset------------------ */
 
+.Reset-p { 
+    font-size: 12px; 
+    background-color:#F0EEED;
+    padding: 5px; 
+    border-radius: 10px;
+
+}
 
 /* ----------log out ---------- */
 .logout-p {

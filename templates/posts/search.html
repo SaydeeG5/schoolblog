@@ -7,6 +7,7 @@
 
 <h1> Your Search Result ... </h1>
 
+
 <ul>
     {% for list in object_list %}
     <form>
@@ -19,13 +20,27 @@
         {{list.body}}
     </br>
         ----------{{list.created_on}}----------
-    </form>
+    
+        
+    </form> <br>
 
     {% empty %}
     <form>Nothing found</form>
+
+    
     
     {% endfor %}
+
+
+    
 </ul>
+
+
+    <a href="{% url 'list' %}" ><button  id="btn-detail" class="btn btn-secondary"><i class="bi bi-backspace"></i> BACK</button></a>
+
+
+
+
 
 {% endblock content %}
 
