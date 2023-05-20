@@ -5,9 +5,9 @@
 
 {% block content %}
 <h1> Not Found (404)</h1>
-<p class="logout-p"> The page you are looking for do not exist. </br>
+<p class="forbidden"> The page you are looking for do not exist. <br>
 
-    <a href="{% url 'home' %}">Click here</a> to go back to the homepage. 
+    <a href="{% url 'home' %}" class = "forbidden_link" >Click here</a> to go back to the homepage. 
 </p>
 
 {% endblock content %}

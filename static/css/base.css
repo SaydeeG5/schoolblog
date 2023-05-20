@@ -12,9 +12,19 @@ h1 {
     font-size: 35px;
     color:   white;
     text-align: center;
-    margin-top: 25px;
+    margin-top: 50px;
     margin-bottom: 25px; 
     letter-spacing: 1px;
+}
+
+.btn {
+    
+    background: #9EB23B !important;
+    color: white !important;
+}
+.btn:focus {
+    box-shadow: none !important;
+    outline: 0px !important;
 }
 
 /* ----------about.html---------- */
@@ -108,8 +118,6 @@ h6 {
 }
 
 
-
-
 /* ----------new (NEWPOST)----form is also in edit------ */
 
 form {
@@ -124,18 +132,6 @@ form {
 }
 
 
-
-.btn {
-    background-color:#F0EEED;
-    border-color:#332C39;
-    color: #434242;
-}
-
-.btn:hover {
-    background-color:#332C39;
-    color:#F0EEED;
-    border-color:#332C39;  
-}
 
 /* ----------New.html form ---------- */
 #new_form{ 
@@ -179,7 +175,7 @@ strong {
     display:flex;
     flex-direction: row;
     gap: 5px;
-}
+} 
 
 #btn-detail {
     font-size: 10px; 
@@ -187,10 +183,10 @@ strong {
     display: inline-block;
 }
 
-/* #btn-detail:hover {
+#btn-detail:hover {
     font-size: 10px; 
-    letter-spacing: 1px;
-} */
+    letter-spacing: 3px;
+}
 
 /* ----------edit button under detail.html----- */ 
 #btn-edit { 
@@ -302,20 +298,11 @@ nav.navbar {
     background: none; 
 }
 
-#buttonsearch {
-    font-size: 12px; 
-    padding: 3px; 
-    border-radius: 5px;
-    color: #434242;
-    font-family:Arial, Helvetica, sans-serif;
+#inputsearch {
+    padding: 5px; 
+    border-radius: 10px;
 }
 
-#buttonsearch:hover {
-    background-color:#332C39;
-    color: white;
-    font-family:Arial, Helvetica, sans-serif;
-
-}
 /* ----------log in ----------- */
 
 #log_in_link {
@@ -324,13 +311,25 @@ nav.navbar {
 
 }
 
+/* ---------forbidden--------also log out .html is under class forbidden . Why ? just because it is what it is right now =) */
 
-/* ----------log out --------- */
-#logout-p {
+.forbidden {
     text-align: center;
     margin-top: 50px; 
+    margin-left: auto;
+    margin-right: auto;
 }
 
+.forbidden_link {
+    color: grey;
+    text-decoration: none;
+}
+
+.forbidden_link:hover {
+    color: #9EB23B;
+}
+
+/* ----------log out --------- */
 #logout_link { 
     color: grey;
     text-decoration: none;
@@ -338,6 +337,11 @@ nav.navbar {
 
 #logout_link:hover {
     color: #9EB23B;
+}
+
+#logout_p { 
+    margin-left:auto important; 
+    margin-right:auto important;
 }
 
 /* ----------registration sign up form ---------- */
@@ -368,7 +372,11 @@ nav.navbar {
     margin-top: 50px; 
     border-radius: 10px;
 } */
-/* -----------reset------------------ */
+/* 
+
+-----------reset------------------ */
+
+
 
 .Reset-p { 
     font-size: 12px; 

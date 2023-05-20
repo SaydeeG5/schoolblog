@@ -5,9 +5,9 @@
 
 {% block content %}
 <h1> Forbidden (403)</h1>
-<p class="logout-p"> You are not authorized to view this page. </br>
+<p class="forbidden"> You are not authorized to view this page. </br>
 
-    <a href="{% url 'login' %}">Click here</a> to log in as yourself.
+    <a href="{% url 'login' %}" class = "forbidden_link">Click here</a> to log in as yourself.
 </p>
 
 {% endblock content %}
