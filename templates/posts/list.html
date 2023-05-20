@@ -13,8 +13,8 @@
         <input id="inputsearch"  type="text" name="q" placeholder="Search Title..." >
         <button id="buttonsearch"  type="submit" >Search</button>
     </form>
-</br>
-</br>
+<br>
+<br>
 
 
 {% for post in post_list %} 
@@ -28,7 +28,7 @@
             <a href="{% url 'detail' post.id %}" class="card-link">Read more...</a> 
         </div>
     </div>
-</br>
+<br>
     {% endfor %}
 
 {% endblock content %}

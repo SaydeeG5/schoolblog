@@ -5,9 +5,9 @@
 
 {% block content %}
 <h1> Log Out</h1>
-<p class="logout-p"> You have been succesfully logged out. </br>
+<p id="logout-p"> You have been succesfully logged out. </br>
 
-    <a href="{% url 'login' %}">Click here</a> to log back in.
+    <a id="logout_link" href="{% url 'login' %}">Click here</a> to log back in.
 </p>
 
 {% endblock content %}

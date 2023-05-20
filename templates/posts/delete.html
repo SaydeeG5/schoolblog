@@ -9,5 +9,10 @@
 <form method="POST">
     {% csrf_token %}
     <input type="submit" value="Confirm" class="btn btn-secondary">
+
 </form>
+
+<div class="buttonsdetail">
+    <a href="{% url 'list' %}" ><button id="btn-detail" class="btn btn-secondary"><i class="bi bi-backspace"></i></button></a>
+    
 {% endblock content %}

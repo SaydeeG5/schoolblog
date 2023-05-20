@@ -4,8 +4,8 @@
 * {
     padding: 0; 
     margin: 0;
-    color:  black;
 }
+    
 
 h1 {
     font-family: 'Bebas Neue', cursive;
@@ -17,13 +17,7 @@ h1 {
     letter-spacing: 1px;
 }
 
-body{
-    background-color:black;
-}
-
-
 /* ----------about.html---------- */
-
 
 .logo { 
     width: 83%;
@@ -63,7 +57,7 @@ h4  {
     }
 
 .card-list {
-    background-color: #F0F0F0;
+    background-color: #f0f0f098;
     border-radius: 5px;
     padding: 5px; 
     width: 83%;
@@ -73,7 +67,7 @@ h4  {
 
 
 .author {
-    font-size: 12px;
+    font-size: 15px;
     font-family: 'Montserrat', serif;
     font-weight: 600;
     text-align: center;
@@ -88,7 +82,7 @@ h4  {
 }
 
 .card-link {
-    color:  #434242;
+    color:  #3C4048;
     font-family: 'Montserrat', serif;
     font-size: 12px; 
     text-decoration: none;
@@ -116,10 +110,10 @@ h6 {
 
 
 
-/* ----------new (NEWPOST)----form is also iin edit------ */
+/* ----------new (NEWPOST)----form is also in edit------ */
 
 form {
-    background-color: #F0F0F0;
+    background-color: #f0f0f056;
     padding: 5px; 
     width: 70%;
     font-size: 15px;
@@ -128,6 +122,8 @@ form {
     font-family: 'Lato', sans-serif;
     border-radius: 5px;
 }
+
+
 
 .btn {
     background-color:#F0EEED;
@@ -141,38 +137,48 @@ form {
     border-color:#332C39;  
 }
 
+/* ----------New.html form ---------- */
+#new_form{ 
+    background: none;
+    margin-top: 50px;
+}
+
 /* 
 ----------detail.html---------- */
 .detailh3 {
     text-align: center;
     font-size: 15px;
     font-family: 'Montserrat', serif;
-    color: white;
+    text-transform: uppercase;
 }
+
 .detail-class{
     width: 60%; 
     display:flex; 
     flex-direction: column;
     margin-left: auto; 
     margin-right: auto;
+    padding: 10px; 
 }
 
+/* ---------- detail "created on "---------- */
 strong { 
     font-size: 10px; 
 }
 
 .detail-p { 
     font-size: 12px; 
-    background-color:#F0EEED;
-    padding: 5px; 
+    background-color:#f0eeed76;
+    padding: 10px; 
     border-radius: 10px;
-
 }
 
 /* ----------the two delete buttons in detail.html---------- */
-.buttonsdetails {
+
+.buttonsdetail {
     display:flex;
     flex-direction: row;
+    gap: 5px;
 }
 
 #btn-detail {
@@ -181,10 +187,10 @@ strong {
     display: inline-block;
 }
 
-#btn-detail:hover {
+/* #btn-detail:hover {
     font-size: 10px; 
     letter-spacing: 1px;
-}
+} */
 
 /* ----------edit button under detail.html----- */ 
 #btn-edit { 
@@ -240,10 +246,10 @@ nav.navbar {
 }
 
 .baselink:hover {
-    box-shadow: inset 300px 0 0 0 #F45050;
-    background-color: #F45050;
+    box-shadow: inset 300px 0 0 0 #B2B2B2;
+    background-color: #b2b2b2b3;
     border-radius: 1px;
-    color: black;
+    color: white;
     font-weight: 600;
     border-radius: 3px;
 }
@@ -254,6 +260,7 @@ nav.navbar {
     border-width: 3px; 
     background-color:#434242;
     border-radius : 5px; 
+    color: white;
 }
 
 #logout:hover {
@@ -261,93 +268,106 @@ nav.navbar {
     border-color:  #434242;
     border-width: 3px; 
     background-color: #EDDBC7;
+    color: white;
 }
 
-#about:hover, #blog:hover, #lasvegas:hover, #newpost:hover, #posts:hover {
+#about:hover, 
+#blog:hover, 
+#lasvegas:hover, #newpost:hover, 
+#posts:hover {
     border-bottom-style: solid;
     border-bottom-width: 3px;
     width: fit-content;
-    box-shadow: inset 300px 0 0 0 #F45050;
+    box-shadow: inset 300px 0 0 0 #B2B2B2;
+    color: white;
 }
+/* -----carousel arrows ------ */
 
+.carousel-control-prev,
+.carousel-control-next {
+    width: 3% !important;
+    
+}
 /* ----------search---------- */
 
 .search-blog {
     margin-left: auto; 
     margin-right: auto; 
     margin-bottom: 25px; 
-    background-color: whitesmoke;
+    padding:5px;
+    
 }
 
 #form-blog {
-    background-color: #F0F0F0;
+    background: none; 
 }
 
 #buttonsearch {
     font-size: 12px; 
-    padding: 5px; 
+    padding: 3px; 
     border-radius: 5px;
-    letter-spacing: 2px; 
-    background-color: #F0F0F0;
     color: #434242;
-    border-color:#332C39;
-    text-transform: uppercase;
-    font-family: 'Bebas Neue', cursive;
+    font-family:Arial, Helvetica, sans-serif;
 }
 
 #buttonsearch:hover {
     background-color:#332C39;
     color: white;
-    font-family: 'Bebas Neue', cursive;
-    letter-spacing: 3px;
+    font-family:Arial, Helvetica, sans-serif;
+
+}
+/* ----------log in ----------- */
+
+#log_in_link {
+    text-decoration: none !important;
+    color:#9EB23B;
+
 }
 
 
 /* ----------log out --------- */
-.logout-p {
+#logout-p {
     text-align: center;
+    margin-top: 50px; 
+}
+
+#logout_link { 
+    color: grey;
+    text-decoration: none;
+}
+
+#logout_link:hover {
+    color: #9EB23B;
 }
 
 /* ----------registration sign up form ---------- */
-#signup-form {
-    background-color: #F0F0F0;
-    padding: 5px; 
-    width: 50%;
-    font-size: 12px;
-    font-family: 'Lato', sans-serif;
-    border-radius: 5px;
-    text-align: left;
+#sign_up_link {
+    text-decoration: none !important;
+    color:#9EB23B;
 }
 
-#signup-btn{
-    background-color:#F0EEED;
-    border-color:#332C39;
-    color: #434242;
-    padding: 5px; 
-    border-radius: 3px;
-}
-
-#signup-btn:hover {
-    background-color: #434242;
-    color: white;
-    border-color:#332C39;
-    font-family: 'Bebas Neue', cursive;
-    letter-spacing: 2px;
-    border-radius: 3px;
-    
-}
 
 /* ----------Password Change---------- */
 
 #id_password_change_form {
-    margin-top: 50px; 
+    margin-top: 15px; 
+    background: none; 
 }
 
-#container {
+.form-control {
+
+    margin-bottom: 10px; 
+}
+
+#id_submit_btn {
+    font-size: 15px;
+}
+
+/* #container {
     background-color: #F0EEED;
     margin-top: 50px; 
     border-radius: 10px;
-}
+} */
 /* -----------reset------------------ */
 
 .Reset-p { 
@@ -358,12 +378,14 @@ nav.navbar {
 
 }
 
-/* ----------log out ---------- */
-.logout-p {
-    background-color: #F0EEED;
-    border-radius: 10px;
-
+#password_reset_form,
+#password_reset_done {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
 }
+
 /* ----------responsive--------- */
 
 @media (max-width: 768px) {
@@ -372,11 +394,11 @@ nav.navbar {
     nav.navbar{
         height:45px;
         font-family: 'Bebas Neue', cursive;
-        background-color: #EDDBC7;
+        background-color: #F8F6F4;
     }
 
     .baselink {
-        background-color: #EDDBC7;
+        background-color: #F8F6F4;
     }
 
     #about, #sdgku {

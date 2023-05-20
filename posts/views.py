@@ -6,12 +6,14 @@ from django.views.generic import (
     ListView,
 )
 
-from .models import Post 
+
+from.models import Post 
 from django.urls import reverse_lazy
 from django.contrib.auth.mixins import ( 
     LoginRequiredMixin,
     UserPassesTestMixin
 )
+
 
 class PostListView(ListView):
     template_name = "posts/list.html"
