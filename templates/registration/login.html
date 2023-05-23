@@ -67,7 +67,7 @@
         box-shadow: none !important;
         outline: 0px !important;
     }
-    
+
     .login_container {
         padding: 0 2rem;
     }
@@ -124,13 +124,40 @@
     
             <div class="mt-4">
                 <div class="d-flex justify-content-center links">
-                    Don't have an account?<a href="{% url 'signup' %}" id = "sign_up_link" class="ml-2">_ Sign Up _</a>
+                    <small>Don't have an account? </small>
                 </div>
+
+                <div class="mt-1">
+                    <div class="d-flex justify-content-center links">
+                        <small><a href="{% url 'signup' %}" class = "sign_up_link" class="ml-2">SIGN UP</a></small>
+                    </div>
+
+                <div class="mt-4">
+                    <div class="d-flex justify-content-center links">
+                        <small>Forgot your password?</small>
         
+                    </div>
+                
+                <div class="mt-2">
+                    <div class="d-flex justify-content-center links">
+                            <small><a class="sign_up_link" href= "{% url 'password_reset' %}" >Click here</a> to reset it. </small>
+                    </div>
+
             </div>
         </div>
     </div>
 </div>
+
+<script>
+    var form_fields = document.getElementsByTagName('input')
+    form_fields[1].placeholder='Username..';
+    form_fields[2].placeholder='Password..';
+
+
+    for (var field in form_fields){	
+        form_fields[field].className += ' form-control'
+    }
+</script>
 </body>
 
 </html>

@@ -308,6 +308,7 @@ nav.navbar {
 #log_in_link {
     text-decoration: none !important;
     color:#9EB23B;
+    font-weight: 600;
 
 }
 
@@ -345,9 +346,10 @@ nav.navbar {
 }
 
 /* ----------registration sign up form ---------- */
-#sign_up_link {
+.sign_up_link {
     text-decoration: none !important;
     color:#9EB23B;
+    font-weight: 600;
 }
 
 
