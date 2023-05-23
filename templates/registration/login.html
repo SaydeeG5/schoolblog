@@ -6,22 +6,7 @@
 {% block content %}
 
 <h1> Log In</h1>
-{% comment %} <form id = "login_form" method="POST">
-    {% csrf_token %}
-    {{ form.as_p }}
 
-    {{form.username.label}} 
-    {{form.username}}
-
-    {{form.password.label}} 
-    {{form.password}}
-
-
-    <input type="submit" value="Log In" class="btn btn-light"> <br> <br>
-    <small> Forgot your password? </small> <br>
-    <a id="login_link" href= "{% url 'password_reset' %}" >Click here</a> to reset it. 
-    
-</form> {% endcomment %}
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
@@ -161,5 +146,22 @@
 </body>
 
 </html>
+
+{% comment %} <form id = "login_form" method="POST">
+    {% csrf_token %}
+    {{ form.as_p }}
+
+    {{form.username.label}} 
+    {{form.username}}
+
+    {{form.password.label}} 
+    {{form.password}}
+
+
+    <input type="submit" value="Log In" class="btn btn-light"> <br> <br>
+    <small> Forgot your password? </small> <br>
+    <a id="login_link" href= "{% url 'password_reset' %}" >Click here</a> to reset it. 
+    
+</form> {% endcomment %}
 
 {% endblock content %}
